@@ -11,6 +11,12 @@
 		D9CFE71E2B60B19900C2A511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE71D2B60B19900C2A511 /* ContentView.swift */; };
 		D9CFE7202B60B19B00C2A511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CFE71F2B60B19B00C2A511 /* Assets.xcassets */; };
 		D9CFE7232B60B19B00C2A511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CFE7222B60B19B00C2A511 /* Preview Assets.xcassets */; };
+		D9CFE72A2B60B23500C2A511 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE7292B60B23500C2A511 /* Person.swift */; };
+		D9CFE72C2B60B6E900C2A511 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE72B2B60B6E900C2A511 /* EditPersonView.swift */; };
+		D9CFE72E2B60C27700C2A511 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE72D2B60C27700C2A511 /* PeopleView.swift */; };
+		D9CFE7302B61D9A700C2A511 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE72F2B61D9A600C2A511 /* Event.swift */; };
+		D9CFE7322B61DB3F00C2A511 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE7312B61DB3F00C2A511 /* EditEventView.swift */; };
+		D9CFE7362B62202A00C2A511 /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CFE7352B62202A00C2A511 /* Previewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D9CFE71D2B60B19900C2A511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9CFE71F2B60B19B00C2A511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9CFE7222B60B19B00C2A511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9CFE7292B60B23500C2A511 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D9CFE72B2B60B6E900C2A511 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		D9CFE72D2B60C27700C2A511 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		D9CFE72F2B61D9A600C2A511 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D9CFE7312B61DB3F00C2A511 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		D9CFE7352B62202A00C2A511 /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				D9CFE71B2B60B19900C2A511 /* FaceFactsApp.swift */,
 				D9CFE71D2B60B19900C2A511 /* ContentView.swift */,
+				D9CFE72D2B60C27700C2A511 /* PeopleView.swift */,
+				D9CFE72B2B60B6E900C2A511 /* EditPersonView.swift */,
+				D9CFE7352B62202A00C2A511 /* Previewer.swift */,
+				D9CFE7292B60B23500C2A511 /* Person.swift */,
+				D9CFE7312B61DB3F00C2A511 /* EditEventView.swift */,
+				D9CFE72F2B61D9A600C2A511 /* Event.swift */,
 				D9CFE71F2B60B19B00C2A511 /* Assets.xcassets */,
 				D9CFE7212B60B19B00C2A511 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CFE72A2B60B23500C2A511 /* Person.swift in Sources */,
+				D9CFE72E2B60C27700C2A511 /* PeopleView.swift in Sources */,
 				D9CFE71E2B60B19900C2A511 /* ContentView.swift in Sources */,
+				D9CFE7362B62202A00C2A511 /* Previewer.swift in Sources */,
 				D9CFE71C2B60B19900C2A511 /* FaceFactsApp.swift in Sources */,
+				D9CFE7302B61D9A700C2A511 /* Event.swift in Sources */,
+				D9CFE72C2B60B6E900C2A511 /* EditPersonView.swift in Sources */,
+				D9CFE7322B61DB3F00C2A511 /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
