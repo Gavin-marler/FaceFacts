@@ -1,10 +1,10 @@
 # FaceFacts
 ## Overview
-This is an iOS application devloped in Xcode using SwiftUI and SwiftData. This application is used for holding information about people you meet.
+This is an iOS application devloped in Xcode using SwiftUI and SwiftData. This application is used for holding information about people you meet, including name, where you met, picture, and notes about them.
 * Xcode
 * Swift
 * SwiftUI
-* JSON
+* SwiftData
 
 ## Execution
 After downloading these files and opening the directory in Xcode, you will be able to build and run this appication on a simulator. This application will not be published on the app store.
@@ -14,4 +14,4 @@ After downloading these files and opening the directory in Xcode, you will be ab
 * [Here](https://developer.apple.com/documentation/xcode) is the Xcode reference.
 * [Here](https://developer.apple.com/swift/) is a basic Swift reference.
 * [Here](https://stackoverflow.com) is Stack Overflow.
-* [Here](https://www.hackingwithswift.com) is a useful guide to learning Swift and SwiftUI.
+* [Here](https://www.hackingwithswift.com) is a useful guide to learning SwiftUI and SwiftData.
